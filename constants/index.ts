@@ -174,10 +174,10 @@ export const OTHER_SKILL = [] as const;
 
 export const PROJECTS = [
   {
-    title: "Netflix inspired feedback app",
+    title: "Netflix-clone",
 
-    image: "/projects/project-1.webp",
-    link: "https://github.com/sreelal46/review-app",
+    image: "/projects/home.webp",
+    link: "https://react-netflix-clone-puce.vercel.app/",
   },
   {
     title: "To-do list in react",
