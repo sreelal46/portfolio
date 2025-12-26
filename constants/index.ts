@@ -194,7 +194,7 @@ export const PROJECTS = [
   {
     title: "Smart Park",
     image: "/projects/smartPark.js.png",
-    link: "https://sreelal46.github.io/Amazon-clone_homePage////",
+    link: "",
   },
 ] as const;
 
