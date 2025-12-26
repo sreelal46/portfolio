@@ -33,31 +33,26 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
+
   {
-    skill_name: "React",
-    image: "react.png",
+    skill_name: "Figma",
+    image: "figma.png",
+    width: 40,
+    height: 40,
+  },
+
+  {
+    skill_name: "MySQL",
+    image: "mysql.png",
     width: 80,
     height: 80,
   },
-  // {
-  //   skill_name: "Redux",
-  //   image: "redux.png",
-  //   width: 80,
-  //   height: 80,
-  // },
-
-  // {
-  //   skill_name: "TypeScript",
-  //   image: "ts.png",
-  //   width: 80,
-  //   height: 80,
-  // },
-  // {
-  //   skill_name: "Next.js 14",
-  //   image: "next.png",
-  //   width: 80,
-  //   height: 80,
-  // },
+  {
+    skill_name: "PostgreSQL",
+    image: "postgresql.png",
+    width: 80,
+    height: 80,
+  },
   {
     skill_name: "Framer Motion",
     image: "framer.png",
@@ -70,17 +65,30 @@ export const SKILL_DATA = [
   //   width: 80,
   //   height: 80,
   // },
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
+
   {
     skill_name: "MongoDB",
     image: "mongodb.png",
     width: 40,
     height: 40,
+  },
+  {
+    skill_name: "Express",
+    image: "express.png",
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "React",
+    image: "react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Node.js",
+    image: "node.png",
+    width: 80,
+    height: 80,
   },
   {
     skill_name: "Firebase",
@@ -175,20 +183,17 @@ export const OTHER_SKILL = [] as const;
 export const PROJECTS = [
   {
     title: "Netflix-clone",
-
-    image: "/projects/home.webp",
+    image: "/projects/netflix.jpg",
     link: "https://react-netflix-clone-puce.vercel.app/",
   },
   {
-    title: "To-do list in react",
-
-    image: "/projects/project-2.webp",
-    link: "https://sreelal46.github.io/simple-react-to-do-app/",
+    title: "LuxCart Ecommerce",
+    image: "/projects/luxCart.png",
+    link: "https://github.com/sreelal46/luxcart-ecommerce",
   },
   {
-    title: "Amazon Clone Home page",
-
-    image: "/projects/project-3.webp",
+    title: "Smart Park",
+    image: "/projects/smartPark.js.png",
     link: "https://sreelal46.github.io/Amazon-clone_homePage/",
   },
 ] as const;
